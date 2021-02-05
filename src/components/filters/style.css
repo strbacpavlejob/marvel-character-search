@@ -1,0 +1,9 @@
+.Filters.panel {
+  margin-bottom: 5px; }
+  @media screen and (min-width: 768px) {
+    .Filters.panel {
+      margin-bottom: 20px; } }
+  .Filters.panel-heading:hover {
+    cursor: pointer; }
+  .Filters.panel-title {
+    font-weight: 600; }

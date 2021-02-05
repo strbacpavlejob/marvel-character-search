@@ -1,0 +1,53 @@
+@import "../../variables";
+
+.Header {
+  background-color: black;
+  padding: 8px 8px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+
+  @media screen and (min-width: $screen-md-min) {
+    padding: 20px 20px;
+    flex-flow: row nowrap;
+  }
+
+  &-title {
+    font-size: 26px;
+    width: 100%;
+    text-align: center;
+    margin: {
+      top: 0;
+      bottom: 5px;
+    }
+
+    @media screen and (min-width: $screen-sm-min) {
+      width: auto;
+      margin: {
+        top: 20px;
+        bottom: 0;
+      }
+      font-size: 36px;
+      text-align: center;
+    }
+  }
+
+  .MarvelBrand {
+    width: 100%;
+    text-align: center;
+
+    @media screen and (min-width: $screen-sm-min) {
+      width: auto;
+      text-align: center;
+    }
+
+    &-logo {
+      height: 50px;
+      @media screen and (min-width: $screen-md-min) {
+        height: 80px;
+        text-align: center;
+      }
+    }
+  }
+}

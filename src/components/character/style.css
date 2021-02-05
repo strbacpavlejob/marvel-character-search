@@ -1,0 +1,26 @@
+.Character {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-flow: column nowrap;
+  margin-bottom: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #777777; }
+  .Character-name {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 20px 10px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  .Character-image {
+    height: 292px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .Character-link.btn {
+    font-family: "Oswald", sans-serif;
+    margin-top: auto;
+    border-radius: 0; }

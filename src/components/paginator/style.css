@@ -1,0 +1,16 @@
+.Paginator-go2Page {
+  width: 100px; }
+
+.Paginator .pagination > li > a:hover,
+.Paginator .pagination > li > a:focus,
+.Paginator .pagination > li > span:hover,
+.Paginator .pagination > li > span:focus {
+  font-weight: 600; }
+
+.Paginator .pagination > .active > a,
+.Paginator .pagination > .active > a:focus,
+.Paginator .pagination > .active > a:hover,
+.Paginator .pagination > .active > span,
+.Paginator .pagination > .active > span:focus,
+.Paginator .pagination > .active > span:hover {
+  font-weight: 600; }

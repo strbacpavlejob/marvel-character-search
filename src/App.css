@@ -1,0 +1,45 @@
+.App {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px; }
+  .App .Filters .panel-heading:hover {
+    cursor: pointer; }
+  .App .Filters .panel-title {
+    font-weight: 600; }
+  .App-navbar {
+    font-family: "Oswald", sans-serif; }
+    .App-navbar.navbar {
+      -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+      border: 0;
+      border-radius: 0;
+      border-bottom: 1px #b5b5b5 solid; }
+      .App-navbar.navbar .navbar-nav {
+        padding: 0 3px; }
+        @media screen and (min-width: 768px) {
+          .App-navbar.navbar .navbar-nav {
+            padding: 0; } }
+        .App-navbar.navbar .navbar-nav a {
+          color: black; }
+          .App-navbar.navbar .navbar-nav a:hover {
+            color: #f11e22;
+            background-color: initial; }
+          .App-navbar.navbar .navbar-nav a .h4 {
+            font-weight: 600; }
+        .App-navbar.navbar .navbar-nav > li.active > a {
+          color: #f11e22; }
+  .App-characters {
+    display: flex;
+    flex-flow: row wrap; }
+    .App-characters .Character {
+      width: 100%; }
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        .App-characters .Character {
+          width: 49.5%; }
+          .App-characters .Character:not(:nth-child(2n+1)) {
+            margin-left: .25%; } }
+      @media screen and (min-width: 992px) {
+        .App-characters .Character {
+          width: 24.5%; }
+          .App-characters .Character:not(:nth-child(4n+1)) {
+            margin-left: .66%; } }
